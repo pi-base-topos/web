@@ -32,7 +32,7 @@
         "doc/codespace/welcome.md"
       ],
       "repositories": {
-        "pi-base/data": {
+        "pi-base-topos/data": {
           "permissions": {
             "contents": "read"
           }

@@ -25,7 +25,7 @@
       "label": "viewer"
     }
   },
-  "postCreateCommand": "git clone https://github.com/pi-base/data.git",
+  "postCreateCommand": "git clone https://github.com/pi-base-topos/data.git",
   "customizations": {
     "codespaces": {
       "openFiles": ["doc/codespace/welcome.md"],

@@ -11,7 +11,7 @@
   const tabs = ['properties', 'theorems', 'references'] as const
 </script>
 
-<h3>Space <Link.Space {space} content="idLong" /></h3>
+<h3>Topos <Link.Space {space} content="idLong" /></h3>
 
 <h1>
   <Typeset body={space.name} />

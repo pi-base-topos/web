@@ -15,7 +15,7 @@
 
     <div class="navbar-nav mr-auto">
       <a class="nav-link" href="/spaces">Explore</a>
-      <a class="nav-link" href="/spaces/all">Spaces</a>
+      <a class="nav-link" href="/spaces/all">Toposes</a>
       <a class="nav-link" href="/properties">Properties</a>
       <a class="nav-link" href="/theorems">Theorems</a>
       <a class="nav-link" href="/questions">Questions</a>

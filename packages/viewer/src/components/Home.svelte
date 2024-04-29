@@ -6,8 +6,8 @@
 
 <div class="wide jumbotron home-jumbotron">
   <div class="container">
-    <h1 class="display-4">π-Base</h1>
-    <p class="lead">a community database of topological counterexamples</p>
+    <h1 class="display-4">π-Base: toposes</h1>
+    <p class="lead">a community database of counterexamples in topos theoery</p>
     <div class="ml-3 mt-4">
       <p>
         ➜ Search spaces by name/description:

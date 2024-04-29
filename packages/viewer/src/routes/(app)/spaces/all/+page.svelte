@@ -6,8 +6,8 @@
   export let data: PageData
 </script>
 
-<Title title="Spaces" />
+<Title title="Toposes" />
 
-<h1>Spaces</h1>
+<h1>Toposes</h1>
 
 <List spaces={data.spaces} />

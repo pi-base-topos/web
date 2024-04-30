@@ -11,6 +11,7 @@ export const refSchema = z.intersection(
     z.object({ mathse: z.number() }),
     z.object({ mo: z.number() }),
     z.object({ zb: z.string() }),
+    z.object({ nlab: z.string() }),
   ]),
 )
 export type Ref = z.infer<typeof refSchema>
@@ -23,6 +24,7 @@ export type TaggedRef =
   | { kind: 'mathse'; id: string; name?: string }
   | { kind: 'mo'; id: string; name?: string }
   | { kind: 'zb'; id: string; name?: string }
+  | { kind: 'nlab'; id: string; name?: string }
 
 export type Kind = TaggedRef['kind']
 
@@ -39,8 +41,10 @@ export function tag(ref: Ref): TaggedRef {
     return { kind: 'mathse', id: String(ref.mathse), name }
   } else if ('mo' in ref) {
     return { kind: 'mo', id: String(ref.mo), name }
-  } else {
+  } else if ('zb' in ref) {
     return { kind: 'zb', id: String(ref.zb), name }
+  } else {
+    return { kind: 'nlab', id: String(ref.nlab), name }
   }
 }
 
@@ -76,6 +80,11 @@ export function format(input: FormatInput) {
         return {
           href: `https://zbmath.org/${id}`,
           title: name || `zbMATH ${id}`,
+        }
+      case 'nlab':
+        return {
+          href: `https://ncatlab.org/nlab/show/${id}`,
+          title: name || `nlab ${id}`,
         }
     }
   } else {

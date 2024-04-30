@@ -43,5 +43,10 @@ export function format({
         href: `https://zbmath.org/${id}`,
         title: name || `zbMATH ${id}`,
       }
+    case 'nlab':
+      return {
+        href: `https://ncatlab.org/nlab/show/${id}`,
+        title: name || `nlab ${id}`,
+      }
   }
 }

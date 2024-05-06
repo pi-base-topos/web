@@ -10,22 +10,20 @@
     <p class="lead">a community database of counterexamples in topos theoery</p>
     <div class="ml-3 mt-4">
       <p>
-        ➜ Search spaces by name/description:
-        <a href="/spaces?text=compactification" class="text-info"
-          >compactifications</a
+        ➜ Search toposes by name/description:
+        <a href="/spaces?text=realizability" class="text-info"
+          >toposes using realizability</a
         >
       </p>
       <p>
-        ➜ Search spaces by properties:
-        <a
-          href="/spaces?q=compact%20%2B%20connected%20%2B%20t_2%20%2B%20~metrizable"
-          class="text-info">non-metric continua</a
-        >
+        ➜ Search toposes by properties:
+        <a href="/spaces?q=Boolean" class="text-info"
+	   >Boolean toposes</a>
       </p>
       <p class="mb-0">
         ➜ Find counterexamples:
-        <a href="/theorems/T000040" class="text-info"
-          >connected spaces need not be path connected</a
+        <a href="/theorems/T000009" class="text-info"
+          >toposes satisfying WLPO need not satisfy LPO</a
         >
       </p>
     </div>

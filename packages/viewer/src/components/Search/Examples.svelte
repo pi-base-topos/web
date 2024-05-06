@@ -3,12 +3,12 @@
 
   const examples = [
     {
-      label: 'All Non-Metric Continua',
-      search: 'compact + connected + t_2 + ~metrizable',
+      label: 'Boolean toposes',
+      search: 'Boolean',
     },
     {
       label: 'A Common Non-Theorem',
-      search: 'first countable + separable + ~second countable',
+      search: 'WLPO + ~LPO',
     },
   ]
 </script>

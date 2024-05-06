@@ -53,7 +53,7 @@
       <input
         class="form-control"
         name="text"
-        placeholder="e.g. plank"
+        placeholder="e.g. realizability"
         bind:value={$text}
       />
     </div>
@@ -61,7 +61,7 @@
       <label class="form-label" for="formula">Filter by Formula</label>
       <FormulaInput
         name="q"
-        placeholder="e.g. compact + metrizable"
+        placeholder="e.g. WLPO + ~LPO"
         raw={rawFormula}
         suggest={$suggest}
         {formula}

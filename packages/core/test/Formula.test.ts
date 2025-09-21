@@ -190,6 +190,12 @@ describe('parsing', () => {
     expect(parse()).toBeUndefined()
     expect(parse('')).toBeUndefined()
   })
+
+  it('resolves #226', () => {
+    expect(parse('(T1 | T2) & T3')).toEqual(
+      and(or(atom('T1'), atom('T2')), atom('T3')),
+    )
+  })
 })
 
 describe('serialization', () => {

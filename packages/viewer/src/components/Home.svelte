@@ -17,8 +17,7 @@
       </p>
       <p>
         ➜ Search toposes by properties:
-        <a href="/spaces?q=Boolean" class="text-info"
-	   >Boolean toposes</a>
+        <a href="/spaces?q=Boolean" class="text-info">Boolean toposes</a>
       </p>
       <p class="mb-0">
         ➜ Find counterexamples:
